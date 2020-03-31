@@ -1,0 +1,6 @@
+framework module Pods_DiffableContacts_DiffableContactsUITests {
+  umbrella header "Pods-DiffableContacts-DiffableContactsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D60A0B47662A2E02DC103F8CEB5ABB /* Pods-DiffableContacts-DiffableContactsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D77BE604FD03DF55278DBB9AD8EEDC /* Pods-DiffableContacts-DiffableContactsUITests-dummy.m */; };
+		10AA3D6F6DA68E512E5939A37F4F4D6C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F7F2F55EFD30C5233C7BAEEA433C08 /* UIButton.swift */; };
+		116F2B55BD3FB03096F7E7C8EB443A4B /* Pods-DiffableContacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB53D8793111CF6F4FC585CEAF38A56 /* Pods-DiffableContacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A456F995C009BD0EC7F9B70756709D /* UITextField+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B719C733E6A26348A160EECA4C1F6 /* UITextField+Tools.swift */; };
+		17A3DA2F01F02737C3A43E16F3E2AA76 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAABE85E5068EBB6AEB1D8C6E3982B23 /* UIStackView.swift */; };
+		1F480FCF309AF0B0E54F7CA1E7887768 /* Pods-DiffableContacts-DiffableContactsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 312F2B6EC16EE40FE55ECB0ABE6D2B33 /* Pods-DiffableContacts-DiffableContactsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2621A2CE90AD2C47228D684D0D79DD36 /* LBTAFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF069688CCA57EC1EF5CEDD89B4D092 /* LBTAFormController.swift */; };
+		2E0688C325B172C1B3BE3E5193770686 /* Pods-DiffableContactsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B7F3DFAA0BDF53D862F34E9BFC91B0 /* Pods-DiffableContactsTests-dummy.m */; };
+		35527D8096FD94BF1F09C0116532955B /* LBTATools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720DB789B52144C340816A03E593E8D /* LBTATools.swift */; };
+		360D1E55A190A866BDB739C6EC5856F8 /* LBTAListHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C9F32FD3DE12E926B48C186698002 /* LBTAListHeaderController.swift */; };
+		374D3A5D3B4FC1A2AC38C6747C00F0F5 /* LBTAListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B216538D74DECEFB68B5730599701885 /* LBTAListController.swift */; };
+		3E7BC5D8FECBB406C745F39645CEB308 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561E635294B03DB7C9AB50099BE493C /* UIView+Layout.swift */; };
+		422B360FD926F7BE9EFD837D9BFEAF24 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3842724560D9B106FA7071BDD5BD40A /* CircularImageView.swift */; };
+		493B2CA17610580CC7F09ADB6BD63403 /* Pods-DiffableContactsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F62D4B3B63726F02318D5F5EF302EC /* Pods-DiffableContactsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CCFA1A626FC5042EE84A15BC5DB591B /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71932D15D3281E0FA40E2393CB63BD73 /* UITextView.swift */; };
+		5687E7CC5DF922A1ECD8D5DB83EFF293 /* AspectFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC60CC637F4E8955D34F6E28945D75 /* AspectFitImageView.swift */; };
+		5F6E52656B334B7BF00C8A6C2E2BE5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		675D2408597ABD83BC151A7D9E7409AC /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC55717073D07CD703496F43BAB8EB /* UILabel.swift */; };
+		687E52ED5FD6A16C7EAD1B84C6168CB0 /* LBTAListHeaderFooterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40466FE334DA88F7738B4459BF3643 /* LBTAListHeaderFooterController.swift */; };
+		6AF2CD62299EFE50C37880377AFC563E /* LBTATools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E6FBA71DAAC4FA167D20BFF7FB4563 /* LBTATools-dummy.m */; };
+		7AA037A66AA9BFA7C2695AADA92AA504 /* LBTAListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1CAD6C9B19867D1B5F348743C22F4 /* LBTAListCell.swift */; };
+		7F9CB3E6C5833B2DE5E4BCE34DA93762 /* LBTATools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFE87F3F7749F6BBF525B9F4C5CB92C /* LBTATools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819D8745DE9AA6F4F8AA1583C7A66EC7 /* Pods-DiffableContacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1F4F9B2B98A572DB5B35644CD5B5B /* Pods-DiffableContacts-dummy.m */; };
+		8F856221B0DFBBB380F499A0F40939F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9693AC379FD8F348253CD0F137A08E0A /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F72BDC2A6AC1B8AC5ABD07D4754FD /* IndentedTextField.swift */; };
+		C21260D435004D42CDE46CF722F60F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CCF6D5DF05C80A410AAE983DD880C5AB /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF67E1A1304FEED582A9C3049B22EF /* UIColor+Helpers.swift */; };
+		D045485DFC48E53A2BBE1BA9A4D0D886 /* UIView+Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F8EA40465A16AA2F9E1FA29EEE87E /* UIView+Stacking.swift */; };
+		D1750D42F6FCC03B49EDF62EB8BF394E /* AnchoredConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5CB65E690464EDFD59C7DE80BD2AFF /* AnchoredConstraints.swift */; };
+		D4F76EC4D4C2D3E3503BF9046B870E82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D473F2839CD09BDD1A504DDCF547B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 161759699B7C9CA3809BBCED3DCA9AE0;
+			remoteInfo = "Pods-DiffableContacts";
+		};
+		94C28BDE6AE633F6CC46286AB440F9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EAE32514CAA452AFA381A6172A1587;
+			remoteInfo = LBTATools;
+		};
+		A7A987DD33E5B3870D47B4630BB5E64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EAE32514CAA452AFA381A6172A1587;
+			remoteInfo = LBTATools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C10BD518DE16040452701C926CC82F6 /* Pods-DiffableContacts-DiffableContactsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContacts-DiffableContactsUITests-Info.plist"; sourceTree = "<group>"; };
+		0DC67F2F366B81DB863CC8D7063ED1E8 /* Pods-DiffableContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		0DF5B540AC63FD614654E8AF7FA01B5F /* Pods-DiffableContacts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiffableContacts-frameworks.sh"; sourceTree = "<group>"; };
+		0EFE87F3F7749F6BBF525B9F4C5CB92C /* LBTATools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-umbrella.h"; sourceTree = "<group>"; };
+		1561E635294B03DB7C9AB50099BE493C /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Source/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+		2A40466FE334DA88F7738B4459BF3643 /* LBTAListHeaderFooterController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListHeaderFooterController.swift; path = Source/ListController/LBTAListHeaderFooterController.swift; sourceTree = "<group>"; };
+		2D5CB65E690464EDFD59C7DE80BD2AFF /* AnchoredConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchoredConstraints.swift; path = Source/AnchoredConstraints.swift; sourceTree = "<group>"; };
+		312F2B6EC16EE40FE55ECB0ABE6D2B33 /* Pods-DiffableContacts-DiffableContactsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiffableContacts-DiffableContactsUITests-umbrella.h"; sourceTree = "<group>"; };
+		319F8EA40465A16AA2F9E1FA29EEE87E /* UIView+Stacking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Stacking.swift"; path = "Source/Extensions/UIView+Stacking.swift"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BB53D8793111CF6F4FC585CEAF38A56 /* Pods-DiffableContacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiffableContacts-umbrella.h"; sourceTree = "<group>"; };
+		4059FF284A7A41E80EB079D17574328C /* Pods-DiffableContacts-DiffableContactsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiffableContacts-DiffableContactsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		42EC55717073D07CD703496F43BAB8EB /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Source/Extensions/UILabel.swift; sourceTree = "<group>"; };
+		49E2CE0476821D5D68ED88CDB341E021 /* LBTATools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTATools-Info.plist"; sourceTree = "<group>"; };
+		4B54FD04043C041288177FF85E6F8164 /* Pods_DiffableContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiffableContacts.framework; path = "Pods-DiffableContacts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F72BDC2A6AC1B8AC5ABD07D4754FD /* IndentedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndentedTextField.swift; path = Source/Extensions/IndentedTextField.swift; sourceTree = "<group>"; };
+		53C4E775583277D29D6E4465B58358ED /* LBTATools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-prefix.pch"; sourceTree = "<group>"; };
+		5ED70B1CD25BB08E24E44BA04CCF0774 /* LBTATools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTATools.framework; path = LBTATools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F65B9CB8ABCD7EB3E026C35FA5770EF /* Pods-DiffableContacts-DiffableContactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContacts-DiffableContactsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71932D15D3281E0FA40E2393CB63BD73 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = Source/Extensions/UITextView.swift; sourceTree = "<group>"; };
+		7256FED137498DF75B75C75E4796301D /* Pods-DiffableContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77D77BE604FD03DF55278DBB9AD8EEDC /* Pods-DiffableContacts-DiffableContactsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiffableContacts-DiffableContactsUITests-dummy.m"; sourceTree = "<group>"; };
+		77DB04928A65770A49910CA3C34105CD /* Pods-DiffableContactsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContactsTests-Info.plist"; sourceTree = "<group>"; };
+		7ECF1BB51E5C0E185A62B71459E53B6C /* Pods_DiffableContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiffableContactsTests.framework; path = "Pods-DiffableContactsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820607E5579D1DC14DE2B3C8FD575183 /* Pods-DiffableContacts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiffableContacts-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AE62EBE010FAD00DA82316878675186 /* LBTATools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTATools.modulemap; sourceTree = "<group>"; };
+		8B8941D41E502F9249A0BE92E1BB236C /* Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94AAF5FEADE5A197ABE5B237DB7E0888 /* Pods-DiffableContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		99F7F2F55EFD30C5233C7BAEEA433C08 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Source/Extensions/UIButton.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB1CAD6C9B19867D1B5F348743C22F4 /* LBTAListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListCell.swift; path = Source/ListController/LBTAListCell.swift; sourceTree = "<group>"; };
+		9ECF67E1A1304FEED582A9C3049B22EF /* UIColor+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "Source/UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		A3842724560D9B106FA7071BDD5BD40A /* CircularImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularImageView.swift; path = Source/UIKitSubclasses/CircularImageView.swift; sourceTree = "<group>"; };
+		A7338B79242CC9D8E5071EA2683CE6D5 /* LBTATools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTATools.xcconfig; sourceTree = "<group>"; };
+		A8B7F3DFAA0BDF53D862F34E9BFC91B0 /* Pods-DiffableContactsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiffableContactsTests-dummy.m"; sourceTree = "<group>"; };
+		A927F431A97A40042F0FC2A716C3F074 /* Pods-DiffableContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContacts.release.xcconfig"; sourceTree = "<group>"; };
+		B216538D74DECEFB68B5730599701885 /* LBTAListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListController.swift; path = Source/ListController/LBTAListController.swift; sourceTree = "<group>"; };
+		B5D1F4F9B2B98A572DB5B35644CD5B5B /* Pods-DiffableContacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiffableContacts-dummy.m"; sourceTree = "<group>"; };
+		B93C68394F7E51FB046730E56C6A7604 /* Pods-DiffableContactsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiffableContactsTests.modulemap"; sourceTree = "<group>"; };
+		BAABE85E5068EBB6AEB1D8C6E3982B23 /* UIStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackView.swift; path = Source/Extensions/UIStackView.swift; sourceTree = "<group>"; };
+		BB88B8ED071BD018C32467B4DC8CD033 /* Pods_DiffableContacts_DiffableContactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiffableContacts_DiffableContactsUITests.framework; path = "Pods-DiffableContacts-DiffableContactsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1A2E7F8CEB4148DA883B4B60AB20DE /* Pods-DiffableContactsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiffableContactsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9E6FBA71DAAC4FA167D20BFF7FB4563 /* LBTATools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTATools-dummy.m"; sourceTree = "<group>"; };
+		CDDC60CC637F4E8955D34F6E28945D75 /* AspectFitImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AspectFitImageView.swift; path = Source/Extensions/AspectFitImageView.swift; sourceTree = "<group>"; };
+		D2456DDF7CE9EE7E4582F6BA1D491418 /* Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D720DB789B52144C340816A03E593E8D /* LBTATools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATools.swift; path = Source/LBTATools/LBTATools.swift; sourceTree = "<group>"; };
+		DA5D77C3DA0CCC1445030337091D7C5B /* Pods-DiffableContacts-DiffableContactsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiffableContacts-DiffableContactsUITests.modulemap"; sourceTree = "<group>"; };
+		E09B719C733E6A26348A160EECA4C1F6 /* UITextField+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Tools.swift"; path = "Source/Extensions/UITextField+Tools.swift"; sourceTree = "<group>"; };
+		E18AA9590DB7EC7FE5DC6DD5FB5478F8 /* Pods-DiffableContacts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContacts-Info.plist"; sourceTree = "<group>"; };
+		E531A23BFD6FE1016F89267E832A79F1 /* Pods-DiffableContactsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContactsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6FBFB5657D37F0EF1E7A94449C740D0 /* Pods-DiffableContacts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiffableContacts-acknowledgements.plist"; sourceTree = "<group>"; };
+		E72A9A43D3D1B7831D782553CD26A797 /* Pods-DiffableContacts-DiffableContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiffableContacts-DiffableContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF069688CCA57EC1EF5CEDD89B4D092 /* LBTAFormController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAFormController.swift; path = Source/Form/LBTAFormController.swift; sourceTree = "<group>"; };
+		F1F62D4B3B63726F02318D5F5EF302EC /* Pods-DiffableContactsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiffableContactsTests-umbrella.h"; sourceTree = "<group>"; };
+		F44C9F32FD3DE12E926B48C186698002 /* LBTAListHeaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListHeaderController.swift; path = Source/ListController/LBTAListHeaderController.swift; sourceTree = "<group>"; };
+		FD96E5CA1B38404E8EE1336A78733BC0 /* Pods-DiffableContacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiffableContacts.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEC5A7DA0048E01EC22E9321CC22506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F856221B0DFBBB380F499A0F40939F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FFDDC8CC79D134CDD93AB262472B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E52656B334B7BF00C8A6C2E2BE5E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65D675D339E7468AD3F6356A3829494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F76EC4D4C2D3E3503BF9046B870E82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC4CBB724637BAEE39AD42D7548228D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21260D435004D42CDE46CF722F60F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F724ECE2420FAF01C425655A197EBD0 /* Pods-DiffableContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B93C68394F7E51FB046730E56C6A7604 /* Pods-DiffableContactsTests.modulemap */,
+				BF1A2E7F8CEB4148DA883B4B60AB20DE /* Pods-DiffableContactsTests-acknowledgements.markdown */,
+				E531A23BFD6FE1016F89267E832A79F1 /* Pods-DiffableContactsTests-acknowledgements.plist */,
+				A8B7F3DFAA0BDF53D862F34E9BFC91B0 /* Pods-DiffableContactsTests-dummy.m */,
+				77DB04928A65770A49910CA3C34105CD /* Pods-DiffableContactsTests-Info.plist */,
+				F1F62D4B3B63726F02318D5F5EF302EC /* Pods-DiffableContactsTests-umbrella.h */,
+				7256FED137498DF75B75C75E4796301D /* Pods-DiffableContactsTests.debug.xcconfig */,
+				94AAF5FEADE5A197ABE5B237DB7E0888 /* Pods-DiffableContactsTests.release.xcconfig */,
+			);
+			name = "Pods-DiffableContactsTests";
+			path = "Target Support Files/Pods-DiffableContactsTests";
+			sourceTree = "<group>";
+		};
+		2B6550339D67A8008912C07F0E7340C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B69669D669385E8770D81C3A471736C6 /* LBTATools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D7850A8CE69BE3F8FD05CF8A15B665D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AE62EBE010FAD00DA82316878675186 /* LBTATools.modulemap */,
+				A7338B79242CC9D8E5071EA2683CE6D5 /* LBTATools.xcconfig */,
+				C9E6FBA71DAAC4FA167D20BFF7FB4563 /* LBTATools-dummy.m */,
+				49E2CE0476821D5D68ED88CDB341E021 /* LBTATools-Info.plist */,
+				53C4E775583277D29D6E4465B58358ED /* LBTATools-prefix.pch */,
+				0EFE87F3F7749F6BBF525B9F4C5CB92C /* LBTATools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTATools";
+			sourceTree = "<group>";
+		};
+		59C05E38BE17E380D017716052188D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED70B1CD25BB08E24E44BA04CCF0774 /* LBTATools.framework */,
+				4B54FD04043C041288177FF85E6F8164 /* Pods_DiffableContacts.framework */,
+				BB88B8ED071BD018C32467B4DC8CD033 /* Pods_DiffableContacts_DiffableContactsUITests.framework */,
+				7ECF1BB51E5C0E185A62B71459E53B6C /* Pods_DiffableContactsTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69EBBD7DAC33AA910492D8B1562D5DEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B932D8B13A016DACDE7DDA98A9723772 /* Pods-DiffableContacts */,
+				8EBB752AEF9C59475023AE2739C31586 /* Pods-DiffableContacts-DiffableContactsUITests */,
+				1F724ECE2420FAF01C425655A197EBD0 /* Pods-DiffableContactsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EBB752AEF9C59475023AE2739C31586 /* Pods-DiffableContacts-DiffableContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D77C3DA0CCC1445030337091D7C5B /* Pods-DiffableContacts-DiffableContactsUITests.modulemap */,
+				D2456DDF7CE9EE7E4582F6BA1D491418 /* Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.markdown */,
+				8B8941D41E502F9249A0BE92E1BB236C /* Pods-DiffableContacts-DiffableContactsUITests-acknowledgements.plist */,
+				77D77BE604FD03DF55278DBB9AD8EEDC /* Pods-DiffableContacts-DiffableContactsUITests-dummy.m */,
+				4059FF284A7A41E80EB079D17574328C /* Pods-DiffableContacts-DiffableContactsUITests-frameworks.sh */,
+				0C10BD518DE16040452701C926CC82F6 /* Pods-DiffableContacts-DiffableContactsUITests-Info.plist */,
+				312F2B6EC16EE40FE55ECB0ABE6D2B33 /* Pods-DiffableContacts-DiffableContactsUITests-umbrella.h */,
+				E72A9A43D3D1B7831D782553CD26A797 /* Pods-DiffableContacts-DiffableContactsUITests.debug.xcconfig */,
+				5F65B9CB8ABCD7EB3E026C35FA5770EF /* Pods-DiffableContacts-DiffableContactsUITests.release.xcconfig */,
+			);
+			name = "Pods-DiffableContacts-DiffableContactsUITests";
+			path = "Target Support Files/Pods-DiffableContacts-DiffableContactsUITests";
+			sourceTree = "<group>";
+		};
+		B69669D669385E8770D81C3A471736C6 /* LBTATools */ = {
+			isa = PBXGroup;
+			children = (
+				2D5CB65E690464EDFD59C7DE80BD2AFF /* AnchoredConstraints.swift */,
+				CDDC60CC637F4E8955D34F6E28945D75 /* AspectFitImageView.swift */,
+				A3842724560D9B106FA7071BDD5BD40A /* CircularImageView.swift */,
+				523F72BDC2A6AC1B8AC5ABD07D4754FD /* IndentedTextField.swift */,
+				EFF069688CCA57EC1EF5CEDD89B4D092 /* LBTAFormController.swift */,
+				9EB1CAD6C9B19867D1B5F348743C22F4 /* LBTAListCell.swift */,
+				B216538D74DECEFB68B5730599701885 /* LBTAListController.swift */,
+				F44C9F32FD3DE12E926B48C186698002 /* LBTAListHeaderController.swift */,
+				2A40466FE334DA88F7738B4459BF3643 /* LBTAListHeaderFooterController.swift */,
+				D720DB789B52144C340816A03E593E8D /* LBTATools.swift */,
+				99F7F2F55EFD30C5233C7BAEEA433C08 /* UIButton.swift */,
+				9ECF67E1A1304FEED582A9C3049B22EF /* UIColor+Helpers.swift */,
+				42EC55717073D07CD703496F43BAB8EB /* UILabel.swift */,
+				BAABE85E5068EBB6AEB1D8C6E3982B23 /* UIStackView.swift */,
+				E09B719C733E6A26348A160EECA4C1F6 /* UITextField+Tools.swift */,
+				71932D15D3281E0FA40E2393CB63BD73 /* UITextView.swift */,
+				1561E635294B03DB7C9AB50099BE493C /* UIView+Layout.swift */,
+				319F8EA40465A16AA2F9E1FA29EEE87E /* UIView+Stacking.swift */,
+				3D7850A8CE69BE3F8FD05CF8A15B665D /* Support Files */,
+			);
+			name = LBTATools;
+			path = LBTATools;
+			sourceTree = "<group>";
+		};
+		B932D8B13A016DACDE7DDA98A9723772 /* Pods-DiffableContacts */ = {
+			isa = PBXGroup;
+			children = (
+				FD96E5CA1B38404E8EE1336A78733BC0 /* Pods-DiffableContacts.modulemap */,
+				820607E5579D1DC14DE2B3C8FD575183 /* Pods-DiffableContacts-acknowledgements.markdown */,
+				E6FBFB5657D37F0EF1E7A94449C740D0 /* Pods-DiffableContacts-acknowledgements.plist */,
+				B5D1F4F9B2B98A572DB5B35644CD5B5B /* Pods-DiffableContacts-dummy.m */,
+				0DF5B540AC63FD614654E8AF7FA01B5F /* Pods-DiffableContacts-frameworks.sh */,
+				E18AA9590DB7EC7FE5DC6DD5FB5478F8 /* Pods-DiffableContacts-Info.plist */,
+				3BB53D8793111CF6F4FC585CEAF38A56 /* Pods-DiffableContacts-umbrella.h */,
+				0DC67F2F366B81DB863CC8D7063ED1E8 /* Pods-DiffableContacts.debug.xcconfig */,
+				A927F431A97A40042F0FC2A716C3F074 /* Pods-DiffableContacts.release.xcconfig */,
+			);
+			name = "Pods-DiffableContacts";
+			path = "Target Support Files/Pods-DiffableContacts";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2B6550339D67A8008912C07F0E7340C8 /* Pods */,
+				59C05E38BE17E380D017716052188D27 /* Products */,
+				69EBBD7DAC33AA910492D8B1562D5DEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A0F093EAF224B00A50FA3E634027CA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B2CA17610580CC7F09ADB6BD63403 /* Pods-DiffableContactsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1F99F67A0D12117A2182ED32F6D773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F480FCF309AF0B0E54F7CA1E7887768 /* Pods-DiffableContacts-DiffableContactsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFAFD3A9DEDF3055DB83F45DDD53CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9CB3E6C5833B2DE5E4BCE34DA93762 /* LBTATools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91220CBA132CB1F63271437C3FFF20D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116F2B55BD3FB03096F7E7C8EB443A4B /* Pods-DiffableContacts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03BDE348354EEFC2DCCF6E500C01BF14 /* Pods-DiffableContacts-DiffableContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539F1C825D883BD4E87069F67AFA91F6 /* Build configuration list for PBXNativeTarget "Pods-DiffableContacts-DiffableContactsUITests" */;
+			buildPhases = (
+				6C1F99F67A0D12117A2182ED32F6D773 /* Headers */,
+				42776192F17C436BA1A00CBA734DA078 /* Sources */,
+				B65D675D339E7468AD3F6356A3829494 /* Frameworks */,
+				4250C435D310E4100A492B5D989D60F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C8D881E9342F8FAEE270A377A6E2C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DiffableContacts-DiffableContactsUITests";
+			productName = "Pods-DiffableContacts-DiffableContactsUITests";
+			productReference = BB88B8ED071BD018C32467B4DC8CD033 /* Pods_DiffableContacts_DiffableContactsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		139DC7A3ABC43E2BD7E6A3BF2911B7AC /* Pods-DiffableContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05B78C6D71D960B8B9521307E835C79 /* Build configuration list for PBXNativeTarget "Pods-DiffableContactsTests" */;
+			buildPhases = (
+				2A0F093EAF224B00A50FA3E634027CA1 /* Headers */,
+				8C9B45B96F0253CBB6BC8640FD315ECE /* Sources */,
+				37FFDDC8CC79D134CDD93AB262472B4C /* Frameworks */,
+				DF57013AF1A6C642126C0A958CC37BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C96C6FCFE56838C7F5F733364CE384B /* PBXTargetDependency */,
+			);
+			name = "Pods-DiffableContactsTests";
+			productName = "Pods-DiffableContactsTests";
+			productReference = 7ECF1BB51E5C0E185A62B71459E53B6C /* Pods_DiffableContactsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		161759699B7C9CA3809BBCED3DCA9AE0 /* Pods-DiffableContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834BD85EDAC40979B4DE0303632AE283 /* Build configuration list for PBXNativeTarget "Pods-DiffableContacts" */;
+			buildPhases = (
+				91220CBA132CB1F63271437C3FFF20D2 /* Headers */,
+				7CD3F095BFE6D73B01A30868198CEB5C /* Sources */,
+				DEC4CBB724637BAEE39AD42D7548228D /* Frameworks */,
+				87D06FAF5CB3F2EB3BF7FB4E2811B75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C869925F4CDD5ED8DEDAE96651B3C6D /* PBXTargetDependency */,
+			);
+			name = "Pods-DiffableContacts";
+			productName = "Pods-DiffableContacts";
+			productReference = 4B54FD04043C041288177FF85E6F8164 /* Pods_DiffableContacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99EAE32514CAA452AFA381A6172A1587 /* LBTATools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284CC9B1E7536D17F69054365D7C0082 /* Build configuration list for PBXNativeTarget "LBTATools" */;
+			buildPhases = (
+				8AFAFD3A9DEDF3055DB83F45DDD53CF4 /* Headers */,
+				09CD1121324FE996694FF3FEC354D471 /* Sources */,
+				0EEC5A7DA0048E01EC22E9321CC22506 /* Frameworks */,
+				BC2453DBBD8FE08C1A15B5671F5E2B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTATools;
+			productName = LBTATools;
+			productReference = 5ED70B1CD25BB08E24E44BA04CCF0774 /* LBTATools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 59C05E38BE17E380D017716052188D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EAE32514CAA452AFA381A6172A1587 /* LBTATools */,
+				161759699B7C9CA3809BBCED3DCA9AE0 /* Pods-DiffableContacts */,
+				03BDE348354EEFC2DCCF6E500C01BF14 /* Pods-DiffableContacts-DiffableContactsUITests */,
+				139DC7A3ABC43E2BD7E6A3BF2911B7AC /* Pods-DiffableContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4250C435D310E4100A492B5D989D60F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D06FAF5CB3F2EB3BF7FB4E2811B75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2453DBBD8FE08C1A15B5671F5E2B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF57013AF1A6C642126C0A958CC37BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CD1121324FE996694FF3FEC354D471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1750D42F6FCC03B49EDF62EB8BF394E /* AnchoredConstraints.swift in Sources */,
+				5687E7CC5DF922A1ECD8D5DB83EFF293 /* AspectFitImageView.swift in Sources */,
+				422B360FD926F7BE9EFD837D9BFEAF24 /* CircularImageView.swift in Sources */,
+				9693AC379FD8F348253CD0F137A08E0A /* IndentedTextField.swift in Sources */,
+				2621A2CE90AD2C47228D684D0D79DD36 /* LBTAFormController.swift in Sources */,
+				7AA037A66AA9BFA7C2695AADA92AA504 /* LBTAListCell.swift in Sources */,
+				374D3A5D3B4FC1A2AC38C6747C00F0F5 /* LBTAListController.swift in Sources */,
+				360D1E55A190A866BDB739C6EC5856F8 /* LBTAListHeaderController.swift in Sources */,
+				687E52ED5FD6A16C7EAD1B84C6168CB0 /* LBTAListHeaderFooterController.swift in Sources */,
+				6AF2CD62299EFE50C37880377AFC563E /* LBTATools-dummy.m in Sources */,
+				35527D8096FD94BF1F09C0116532955B /* LBTATools.swift in Sources */,
+				10AA3D6F6DA68E512E5939A37F4F4D6C /* UIButton.swift in Sources */,
+				CCF6D5DF05C80A410AAE983DD880C5AB /* UIColor+Helpers.swift in Sources */,
+				675D2408597ABD83BC151A7D9E7409AC /* UILabel.swift in Sources */,
+				17A3DA2F01F02737C3A43E16F3E2AA76 /* UIStackView.swift in Sources */,
+				11A456F995C009BD0EC7F9B70756709D /* UITextField+Tools.swift in Sources */,
+				4CCFA1A626FC5042EE84A15BC5DB591B /* UITextView.swift in Sources */,
+				3E7BC5D8FECBB406C745F39645CEB308 /* UIView+Layout.swift in Sources */,
+				D045485DFC48E53A2BBE1BA9A4D0D886 /* UIView+Stacking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42776192F17C436BA1A00CBA734DA078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D60A0B47662A2E02DC103F8CEB5ABB /* Pods-DiffableContacts-DiffableContactsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3F095BFE6D73B01A30868198CEB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819D8745DE9AA6F4F8AA1583C7A66EC7 /* Pods-DiffableContacts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B45B96F0253CBB6BC8640FD315ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0688C325B172C1B3BE3E5193770686 /* Pods-DiffableContactsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C869925F4CDD5ED8DEDAE96651B3C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTATools;
+			target = 99EAE32514CAA452AFA381A6172A1587 /* LBTATools */;
+			targetProxy = A7A987DD33E5B3870D47B4630BB5E64D /* PBXContainerItemProxy */;
+		};
+		6C96C6FCFE56838C7F5F733364CE384B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DiffableContacts";
+			target = 161759699B7C9CA3809BBCED3DCA9AE0 /* Pods-DiffableContacts */;
+			targetProxy = 4D473F2839CD09BDD1A504DDCF547B13 /* PBXContainerItemProxy */;
+		};
+		D3C8D881E9342F8FAEE270A377A6E2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTATools;
+			target = 99EAE32514CAA452AFA381A6172A1587 /* LBTATools */;
+			targetProxy = 94C28BDE6AE633F6CC46286AB440F9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F49BDAB8A9DB5D9C91ADA4F3BDA7812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AAF5FEADE5A197ABE5B237DB7E0888 /* Pods-DiffableContactsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContactsTests/Pods-DiffableContactsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContactsTests/Pods-DiffableContactsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32F2C215F9689C7F721542E4BB30300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7338B79242CC9D8E5071EA2683CE6D5 /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3562C5250E29402435CC76B52E499E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F65B9CB8ABCD7EB3E026C35FA5770EF /* Pods-DiffableContacts-DiffableContactsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContacts-DiffableContactsUITests/Pods-DiffableContacts-DiffableContactsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContacts-DiffableContactsUITests/Pods-DiffableContacts-DiffableContactsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E928FE2F52A735306D98192FD802B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72A9A43D3D1B7831D782553CD26A797 /* Pods-DiffableContacts-DiffableContactsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContacts-DiffableContactsUITests/Pods-DiffableContacts-DiffableContactsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContacts-DiffableContactsUITests/Pods-DiffableContacts-DiffableContactsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58604873DE68F8952EBD5ECB7ABF25C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A927F431A97A40042F0FC2A716C3F074 /* Pods-DiffableContacts.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContacts/Pods-DiffableContacts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContacts/Pods-DiffableContacts.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88CE55CC6E421E5BCC6FB1854BE455F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC67F2F366B81DB863CC8D7063ED1E8 /* Pods-DiffableContacts.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContacts/Pods-DiffableContacts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContacts/Pods-DiffableContacts.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B226C82D51713F2E429F3A65FE9EC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7256FED137498DF75B75C75E4796301D /* Pods-DiffableContactsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiffableContactsTests/Pods-DiffableContactsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiffableContactsTests/Pods-DiffableContactsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1930E6485521C6631E11751E99FF262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7338B79242CC9D8E5071EA2683CE6D5 /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284CC9B1E7536D17F69054365D7C0082 /* Build configuration list for PBXNativeTarget "LBTATools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1930E6485521C6631E11751E99FF262 /* Debug */,
+				32F2C215F9689C7F721542E4BB30300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539F1C825D883BD4E87069F67AFA91F6 /* Build configuration list for PBXNativeTarget "Pods-DiffableContacts-DiffableContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E928FE2F52A735306D98192FD802B89 /* Debug */,
+				3562C5250E29402435CC76B52E499E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834BD85EDAC40979B4DE0303632AE283 /* Build configuration list for PBXNativeTarget "Pods-DiffableContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CE55CC6E421E5BCC6FB1854BE455F5 /* Debug */,
+				58604873DE68F8952EBD5ECB7ABF25C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05B78C6D71D960B8B9521307E835C79 /* Build configuration list for PBXNativeTarget "Pods-DiffableContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B226C82D51713F2E429F3A65FE9EC401 /* Debug */,
+				2F49BDAB8A9DB5D9C91ADA4F3BDA7812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

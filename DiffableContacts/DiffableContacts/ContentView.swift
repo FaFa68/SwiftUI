@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import LBTATools
 
 
 enum SectionType {
@@ -66,14 +67,8 @@ struct DiffableContainer: UIViewControllerRepresentable {
     
     func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<DiffableContainer>) {
     }
-    
+//    typealias UIViewControllerType = UIViewController
 
-    
-    typealias UIViewControllerType = UIViewController
-    
-
-    
-    
 }
 
 struct ContentView: View {
