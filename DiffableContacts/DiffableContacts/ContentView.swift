@@ -13,13 +13,24 @@ enum SectionType {
     case CEO
     case Peassants
 }
+// This changed to class, object type of contact.
+// related fo favorite action
+//struct Contact: Hashable {
+//    let name: String
+//    var isFavorite = false
+//}
 
-struct Contact: Hashable {
+class Contact: NSObject {
     let name: String
+    var isFavorite = false
+    
+    init(name: String) {
+        self.name = name
+    }
 }
-
 class ContactViewModel: ObservableObject {
     @Published var name = ""
+    @Published var isFavorite = false
 }
 
 struct ContactRowView: View {
@@ -31,7 +42,7 @@ struct ContactRowView: View {
             Image(systemName: "person.fill")
             Text(viewModel.name)
             Spacer()
-            Image(systemName: "star")
+            Image(systemName: viewModel.isFavorite ? "star.fill" : "star")
         }.padding(20)
     }
 }
@@ -54,16 +65,48 @@ class ContactCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+class ContactsSource: UITableViewDiffableDataSource<SectionType, Contact> {
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        true
+    }
+    
+}
 class DiffableTableViewContrller: UITableViewController {
     
-    lazy var source: UITableViewDiffableDataSource<SectionType, Contact> =
+    lazy var source: ContactsSource =
         .init(tableView: self.tableView) { (_
             , indexPath, contact) -> UITableViewCell? in
 //            let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
             let cell = ContactCell(style: .default, reuseIdentifier: nil)
 //            cell.textLabel?.text = contact.name
             cell.viewModel.name = contact.name
+            cell.viewModel.isFavorite = contact.isFavorite
             return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completion) in
+            completion(true)
+            var snapshot =  self.source.snapshot()
+            guard let contact = self.source.itemIdentifier(for: indexPath)
+                else { return }
+            snapshot.deleteItems([contact])
+            self.source.apply(snapshot)
+        }
+        
+        let favoriteAction = UIContextualAction(style: .normal, title: "Favorite") { (_, _, completion) in
+            completion(true)
+            var snapshot = self.source.snapshot()
+            guard var contact = self.source.itemIdentifier(for: indexPath)  else { return }
+            contact.isFavorite.toggle()
+            snapshot.reloadItems([contact])
+            self.source.apply(snapshot)
+        }
+
+        
+        return .init(actions: [deleteAction, favoriteAction])
     }
     
     private func setupSource(){
@@ -74,7 +117,6 @@ class DiffableTableViewContrller: UITableViewController {
             .init(name: "Farhad")], toSection: .CEO)
         snapshot.appendSections([.Peassants])
         snapshot.appendItems([.init(name: "Farshad")], toSection: .Peassants)
-//        snapshot.appendItems([.init(name: "Farshad")], toSection: .Peassants)
         source.apply(snapshot)
     }
     
@@ -99,23 +141,22 @@ class DiffableTableViewContrller: UITableViewController {
 struct DiffableContainer: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<DiffableContainer>) -> UIViewController {
         UINavigationController(rootViewController: DiffableTableViewContrller(style: .insetGrouped))
-//        DiffableTableViewContrller()
     }
     
     func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<DiffableContainer>) {
     }
-//    typealias UIViewControllerType = UIViewController
 
 }
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        DiffableContainer()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DiffableContainer()
+//        DiffableContainer()
+        ContentView()
     }
 }
