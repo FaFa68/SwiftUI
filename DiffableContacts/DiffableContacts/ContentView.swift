@@ -38,11 +38,13 @@ struct ContactRowView: View {
     @ObservedObject var viewModel: ContactViewModel
 
     var body: some View {
-        HStack {
+        HStack (spacing: 15){
             Image(systemName: "person.fill")
+                .font(.system(size: 34))
             Text(viewModel.name)
             Spacer()
             Image(systemName: viewModel.isFavorite ? "star.fill" : "star")
+                .font(.system(size: 20))
         }.padding(20)
     }
 }
