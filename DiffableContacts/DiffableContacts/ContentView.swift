@@ -101,7 +101,7 @@ class DiffableTableViewContrller: UITableViewController {
         let favoriteAction = UIContextualAction(style: .normal, title: "Favorite") { (_, _, completion) in
             completion(true)
             var snapshot = self.source.snapshot()
-            guard var contact = self.source.itemIdentifier(for: indexPath)  else { return }
+            guard let contact = self.source.itemIdentifier(for: indexPath)  else { return }
             contact.isFavorite.toggle()
             snapshot.reloadItems([contact])
             self.source.apply(snapshot)
@@ -136,7 +136,22 @@ class DiffableTableViewContrller: UITableViewController {
         super.viewDidLoad()
         navigationItem.title = "Contacts"
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        navigationItem.rightBarButtonItem = .init(title: "Add", style: .plain, target: self, action: #selector(handleAdd))
+        
         setupSource()
+    }
+    
+    @objc private func handleAdd() {
+        
+        let formView = ContactFormView { (name, sectionType)  in
+            self.dismiss(animated: true)
+            var snapshot = self.source.snapshot()
+            snapshot.appendItems([.init(name: name)], toSection: sectionType)
+            self.source.apply(snapshot)
+        }
+        let hostingControler = UIHostingController(rootView: formView)
+        present(hostingControler, animated: true)
     }
 }
 
@@ -148,6 +163,33 @@ struct DiffableContainer: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<DiffableContainer>) {
     }
 
+}
+
+struct ContactFormView: View {
+    
+    var didAddContact: (String, SectionType) -> () = { _,_ in }
+    @State private var name = ""
+    @State private var sectionType = SectionType.CEO
+    
+    var body: some View {
+        VStack (spacing: 20){
+            TextField("Name", text: $name)
+            Picker(selection: $sectionType, label: Text("DOES NOT MATTER")) {
+                Text("CEO").tag(SectionType.CEO)
+                Text("Peassants").tag(SectionType.Peassants)
+            }.pickerStyle(SegmentedPickerStyle())
+            Button(action: {
+                self.didAddContact(self.name, self.sectionType)
+            }, label: {
+                HStack{
+                    Spacer()
+                    Text("Add").foregroundColor(Color.white)
+                    Spacer()
+                    }
+            }).padding().background(Color.blue).cornerRadius(5)
+            Spacer()
+        }.padding()
+    }
 }
 
 struct ContentView: View {
